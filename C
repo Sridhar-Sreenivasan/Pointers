@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[3] = {10, 20, 30};
+    int *p = arr;       // pointer to first element
+    cout << "Value pointed by p: " << *p << endl;
+    p++;    // increment pointer to next element
+    cout << "Value pointed by p after increment: " << *p << endl;
+    return 0;
+}
+/*
+Output :
+Value pointed by p: 10
+Value pointed by p after increment: 20
+*/
