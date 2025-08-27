@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x = 10;         // fixed value
+    int *p = &x;
+    cout << "Address of x: " << p << endl;
+    cout << "Value of x using pointer: " << *p << endl;
+    return 0;
+}
+/*
+Output :
+Address of x: 0x7ffc942fe074
+Value of x using pointer: 10
+*/
