@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[3] = {1, 2, 3};
+    int *p = arr;       // pointer to first element
+    cout << "Before change: " << arr[0] << endl;
+    *p = 99;            // change first element through pointer
+    cout << "After change: " << arr[0] << endl;
+    return 0;
+}
+/*
+Output :
+Before change: 1
+After change: 99
+*/
